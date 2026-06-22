@@ -4502,6 +4502,19 @@
 		)
 		(uuid "f055c749-9161-4685-a854-c11abf0c9aa7")
 	)
+	(text "DIODE"
+		(exclude_from_sim no)
+		(at 184.785 121.92 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+				(color 255 133 141 1)
+			)
+		)
+		(uuid "0452829a-aee5-45a2-a55a-2f3ee2b1af05")
+	)
 	(text "TO CHANGE"
 		(exclude_from_sim no)
 		(at 54.61 69.85 0)
@@ -4554,6 +4567,19 @@
 		)
 		(uuid "876d053c-4927-4527-ad64-b2d3ca902702")
 	)
+	(text "RISKY"
+		(exclude_from_sim no)
+		(at 252.095 118.11 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+				(color 255 133 141 1)
+			)
+		)
+		(uuid "89b5cbce-d60e-4034-a768-89bdfff6d003")
+	)
 	(text "TO CHANGE"
 		(exclude_from_sim no)
 		(at 91.44 95.885 0)
@@ -4566,6 +4592,19 @@
 			)
 		)
 		(uuid "edbb1e9d-6a1a-4bf0-b098-9dc9d547677e")
+	)
+	(text "TO CHANGE"
+		(exclude_from_sim no)
+		(at 53.34 52.705 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+				(color 255 133 141 1)
+			)
+		)
+		(uuid "f3c74a57-cdfd-4916-a1c6-0f3500069ddc")
 	)
 	(text "TO CHANGE"
 		(exclude_from_sim no)
@@ -5064,7 +5103,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 122.555) (xy 188.595 122.555)
+			(xy 189.865 122.555) (xy 180.34 122.555)
 		)
 		(stroke
 			(width 0)
@@ -6083,7 +6122,7 @@
 		(uuid "ff8d4dc5-c4be-4577-bc32-755bb5e44b5d")
 	)
 	(label "FB"
-		(at 188.595 122.555 180)
+		(at 180.34 122.555 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10345,7 +10384,7 @@
 		(dnp no)
 		(uuid "7028a252-d469-4297-b6b2-8873a57ea73c")
 		(property "Reference" "Q4"
-			(at 201.295 108.585 0)
+			(at 200.025 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10355,7 +10394,7 @@
 			)
 		)
 		(property "Value" "PNP"
-			(at 198.755 108.585 0)
+			(at 200.025 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12284,10 +12323,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd37467c-c7cc-4d8b-8b72-1a4fef22211d")
 		(property "Reference" "F1"
-			(at 53.34 46.99 90)
+			(at 53.34 47.625 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12296,8 +12334,8 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 53.34 49.53 90)
+		(property "Value" "300mA"
+			(at 53.34 50.165 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1,4 +1,8 @@
-# Passive Infrared Light Hardware
+# PIR Triggered Light Module
+
+<p align="center">
+  <img src="documentation/pcb-snapshot.png" alt="PIR Motion Light Module Schematic Snapshot" width="300">
+</p>
 
 # Description
 
